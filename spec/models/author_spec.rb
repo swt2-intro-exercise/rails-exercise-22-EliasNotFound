@@ -8,3 +8,4 @@ describe Author, type: :model do
         expect(author.homepage).to eq('http://wikipedia.org/Alan_Turing')
         expect(author.name).to eq('Alan Turing')
     end
+end
